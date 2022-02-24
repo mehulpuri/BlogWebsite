@@ -6,7 +6,7 @@
 
 <% passedPosts.forEach(function(passedPost){ %>
   <h1><%= passedPost.title %></h1>
-  <p><%= passedPost.content.substring(0,100) +"..." %>
+  <p><%= passedPost.content.substring(0,300) +"..." %>
   <a href="/posts/<%= passedPost.title %>">Read More</a>
   </p>
 
